@@ -1,0 +1,15 @@
+[submodule "src/target_STM32L0/STM32CubeL0"]
+	path = src/target_STM32L0/STM32CubeL0
+	url = https://github.com/STMicroelectronics/STM32CubeL0
+[submodule "src/target_STM32L1/STM32CubeL1"]
+	path = src/target_STM32L1/STM32CubeL1
+	url = https://github.com/STMicroelectronics/STM32CubeL1
+[submodule "src/target_STM32L4/STM32CubeL4"]
+	path = src/target_STM32L4/STM32CubeL4
+	url = https://github.com/STMicroelectronics/STM32CubeL4
+[submodule "src/target_STM32G0/STM32CubeG0"]
+	path = src/target_STM32G0/STM32CubeG0
+	url = https://github.com/STMicroelectronics/STM32CubeG0
+[submodule "src/target_STM32F7/STM32CubeF7"]
+	path = src/target_STM32F7/STM32CubeF7
+	url = https://github.com/STMicroelectronics/STM32CubeF7
