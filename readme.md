@@ -14,11 +14,12 @@ $ git submodule update
 ```
 
 shell script example ``cfg.sh`` is provided:
-``cmake -DTOOLCHAIN_PREFIX="~/gcc-arm-none-eabi-9-2020-q2-update" \
 
-      -DCMAKE_TOOLCHAIN_FILE="../cmake/toolchain-arm-none-eabi.cmake" \
-      
-    ..``
+```
+cmake -DTOOLCHAIN_PREFIX="~/gcc-arm-none-eabi-9-2020-q2-update" \
+      -DCMAKE_TOOLCHAIN_FILE="../cmake/toolchain-arm-none-eabi.cmake" \      
+    ..
+```
 
 # using on windows
 If you insist on using windows, read the following:
