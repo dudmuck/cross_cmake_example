@@ -3,7 +3,7 @@ This example project is not providing any abstraction layer between MCU vendors,
 Purpose is for testing [cmake_ide_generator](https://github.com/dudmuck/cmake_ide_generator)
 
 #  usage
-If you dont have GCC for ARM installed, [download toolchain here]([https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads))
+If you dont have GCC for ARM installed, [download toolchain here](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads)
 
 ## installing vendor MCU drivers
 In the case of STM32, go into target_* directory for the device you're building for:
@@ -15,7 +15,9 @@ $ git submodule update
 
 shell script example ``cfg.sh`` is provided:
 ``cmake -DTOOLCHAIN_PREFIX="~/gcc-arm-none-eabi-9-2020-q2-update" \
+
       -DCMAKE_TOOLCHAIN_FILE="../cmake/toolchain-arm-none-eabi.cmake" \
+      
     ..``
 
 # using on windows
