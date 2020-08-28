@@ -1,6 +1,6 @@
 This example project is not providing any abstraction layer between MCU vendors, but will use abstraction layer provided by vendor.
 
-Purpose is for testing [cmake_ide_generator]([https://github.com/dudmuck/cmake_ide_generator)
+Purpose is for testing [cmake_ide_generator](https://github.com/dudmuck/cmake_ide_generator)
 
 #  usage
 If you dont have GCC for ARM installed, [download toolchain here]([https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads))
