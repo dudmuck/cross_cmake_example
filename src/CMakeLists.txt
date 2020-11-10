@@ -36,6 +36,9 @@ elseif(BOARD STREQUAL NUCLEO-G071RB)
 elseif(BOARD STREQUAL STM32F746G-DISCO)
     add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/target_STM32F7/STM32F746G-DISCO)
     set(STM32 1)
+elseif(BOARD STREQUAL EK-RA2A1)
+    add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/target_renesas_RA/EK-RA2A1)
+    set(RA 1)
 endif()
 
 
@@ -43,6 +46,8 @@ if(APPLICATION STREQUAL ledBlink)
 
     if (STM32)
         add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/apps/stm32/led-blink)
+    elseif (RA)
+        add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/apps/RA/led-blink)
     endif()
 
 elseif(APPLICATION STREQUAL someOtherApp)

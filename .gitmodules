@@ -13,3 +13,6 @@
 [submodule "src/target_STM32F7/STM32CubeF7"]
 	path = src/target_STM32F7/STM32CubeF7
 	url = https://github.com/STMicroelectronics/STM32CubeF7
+[submodule "src/target_renesas_RA/fsp"]
+	path = src/target_renesas_RA/fsp
+	url = https://github.com/renesas/fsp
