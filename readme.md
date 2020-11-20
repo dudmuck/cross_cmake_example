@@ -9,11 +9,11 @@ If you dont have GCC for ARM installed, [download toolchain here](https://develo
 In the case of STM32, go into target_* directory for the device you're building for:
 
 ```
-$ git submodule init
-$ git submodule update
+$ git submodule update .
 ```
+The dot represents current directory, which prevents all submodules for every target from being cloned.  When specifying directory of submodule, only the submodule of interest is cloned.  
 
-shell script example ``cfg.sh`` is provided:
+to aid running cmake, shell script example ``cfg.sh`` is provided:
 
 ```
 cmake -DTOOLCHAIN_PREFIX="~/gcc-arm-none-eabi-9-2020-q2-update" \
